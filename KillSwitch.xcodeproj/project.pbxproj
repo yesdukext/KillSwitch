@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5C38E8DB2C9B0E65007DF383 /* KillSwitchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E8DA2C9B0E65007DF383 /* KillSwitchApp.swift */; };
-		5C38E8DD2C9B0E65007DF383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E8DC2C9B0E65007DF383 /* ContentView.swift */; };
 		5C38E8DF2C9B0E66007DF383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C38E8DE2C9B0E66007DF383 /* Assets.xcassets */; };
 		5C38E8E22C9B0E66007DF383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C38E8E12C9B0E66007DF383 /* Preview Assets.xcassets */; };
 		5C38E8EC2C9B0E67007DF383 /* KillSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E8EB2C9B0E67007DF383 /* KillSwitchTests.swift */; };
 		5C38E8F62C9B0E67007DF383 /* KillSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E8F52C9B0E67007DF383 /* KillSwitchUITests.swift */; };
 		5C38E8F82C9B0E67007DF383 /* KillSwitchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E8F72C9B0E67007DF383 /* KillSwitchUITestsLaunchTests.swift */; };
+		5C38E9062C9B0EB2007DF383 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E9052C9B0EB2007DF383 /* AppConfig.swift */; };
+		5C38E90B2C9B1174007DF383 /* ConfigRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E90A2C9B1174007DF383 /* ConfigRepositoryImpl.swift */; };
+		5C38E90F2C9B3B09007DF383 /* AppConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E90E2C9B3B09007DF383 /* AppConfigViewModel.swift */; };
+		5C38E9112C9B3DA7007DF383 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E9102C9B3DA7007DF383 /* AppCoordinator.swift */; };
+		5C38E9132C9B3EA1007DF383 /* AppConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38E9122C9B3EA1007DF383 /* AppConfigView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		5C38E8D72C9B0E65007DF383 /* KillSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KillSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C38E8DA2C9B0E65007DF383 /* KillSwitchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillSwitchApp.swift; sourceTree = "<group>"; };
-		5C38E8DC2C9B0E65007DF383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C38E8DE2C9B0E66007DF383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C38E8E12C9B0E66007DF383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C38E8E72C9B0E66007DF383 /* KillSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KillSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		5C38E8F12C9B0E67007DF383 /* KillSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KillSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C38E8F52C9B0E67007DF383 /* KillSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillSwitchUITests.swift; sourceTree = "<group>"; };
 		5C38E8F72C9B0E67007DF383 /* KillSwitchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillSwitchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C38E9052C9B0EB2007DF383 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		5C38E90A2C9B1174007DF383 /* ConfigRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigRepositoryImpl.swift; sourceTree = "<group>"; };
+		5C38E90E2C9B3B09007DF383 /* AppConfigViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigViewModel.swift; sourceTree = "<group>"; };
+		5C38E9102C9B3DA7007DF383 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5C38E9122C9B3EA1007DF383 /* AppConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,11 @@
 		5C38E8D92C9B0E65007DF383 /* KillSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				5C38E90D2C9B1CB9007DF383 /* Views */,
+				5C38E90C2C9B1CB2007DF383 /* ViewModel */,
+				5C38E9072C9B0F11007DF383 /* Repo */,
+				5C38E9042C9B0E9C007DF383 /* Model */,
 				5C38E8DA2C9B0E65007DF383 /* KillSwitchApp.swift */,
-				5C38E8DC2C9B0E65007DF383 /* ContentView.swift */,
 				5C38E8DE2C9B0E66007DF383 /* Assets.xcassets */,
 				5C38E8E02C9B0E66007DF383 /* Preview Content */,
 			);
@@ -125,6 +136,39 @@
 				5C38E8F72C9B0E67007DF383 /* KillSwitchUITestsLaunchTests.swift */,
 			);
 			path = KillSwitchUITests;
+			sourceTree = "<group>";
+		};
+		5C38E9042C9B0E9C007DF383 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C38E9052C9B0EB2007DF383 /* AppConfig.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C38E9072C9B0F11007DF383 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				5C38E90A2C9B1174007DF383 /* ConfigRepositoryImpl.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		5C38E90C2C9B1CB2007DF383 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5C38E90E2C9B3B09007DF383 /* AppConfigViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5C38E90D2C9B1CB9007DF383 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C38E9102C9B3DA7007DF383 /* AppCoordinator.swift */,
+				5C38E9122C9B3EA1007DF383 /* AppConfigView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C38E8DD2C9B0E65007DF383 /* ContentView.swift in Sources */,
+				5C38E9132C9B3EA1007DF383 /* AppConfigView.swift in Sources */,
+				5C38E9062C9B0EB2007DF383 /* AppConfig.swift in Sources */,
+				5C38E90B2C9B1174007DF383 /* ConfigRepositoryImpl.swift in Sources */,
 				5C38E8DB2C9B0E65007DF383 /* KillSwitchApp.swift in Sources */,
+				5C38E90F2C9B3B09007DF383 /* AppConfigViewModel.swift in Sources */,
+				5C38E9112C9B3DA7007DF383 /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

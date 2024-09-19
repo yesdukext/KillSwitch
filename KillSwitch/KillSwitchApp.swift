@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct KillSwitchApp: App {
+    
+    var coordinator: AppCoordinator
+    
+    init() {
+        coordinator = AppCoordinator()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            coordinator.rootView
         }
     }
 }
